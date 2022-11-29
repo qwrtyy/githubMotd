@@ -2,13 +2,16 @@ package cc.qwrtyy.github;
 
 import cc.qwrtyy.github.handlers.ServerListPingHandler;
 import org.bukkit.plugin.java.JavaPlugin;
+import static pl.qwrtyy.tools.utils.listener.ListenerReg.registerListener;
 
 public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getServer().getPluginManager().registerEvents(new ServerListPingHandler(), this);
-
+        registerListeners();
+    }
+    public void registerListeners(){
+        registerListener(this, new ServerListPingHandler());
     }
 
     @Override

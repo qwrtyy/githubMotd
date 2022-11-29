@@ -1,0 +1,4 @@
+name: Motd
+version: '${project.version}'
+main: cc.qwrtyy.github.Main
+authors: [ qwrtyy ]

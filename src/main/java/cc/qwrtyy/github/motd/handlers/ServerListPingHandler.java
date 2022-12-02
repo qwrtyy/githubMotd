@@ -1,4 +1,4 @@
-package cc.qwrtyy.github.handlers;
+package cc.qwrtyy.github.motd.handlers;
 
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;

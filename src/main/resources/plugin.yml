@@ -1,4 +1,4 @@
-name: Motd
+name: githubMotd
 version: '${project.version}'
-main: cc.qwrtyy.github.Main
+main: cc.qwrtyy.github.motd.Main
 authors: [ qwrtyy ]
